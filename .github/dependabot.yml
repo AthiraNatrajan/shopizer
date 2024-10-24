@@ -1,0 +1,9 @@
+version: 2
+updates:
+  - package-ecosystem: "maven"
+    directory: "/"
+    schedule:
+      interval: "weekly"  # Options: daily, weekly, or monthly
+    commit-message:
+      prefix: "fix"  # Optional: Customize the prefix for commit messages
+
