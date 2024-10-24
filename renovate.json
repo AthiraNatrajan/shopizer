@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "schedule": ["every weekday"],
+  "automerge": true,
+  "packageRules": [
+    {
+      "matchPackagePatterns": ["*"],
+      "groupName": "All Dependencies",
+      "automerge": true
+    }
+  ]
+}
+
